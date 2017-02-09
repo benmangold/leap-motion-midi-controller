@@ -1,0 +1,20 @@
+#N canvas 0 22 776 373 10;
+#X obj 75 24 inlet;
+#X obj 80 245 outlet;
+#X text 341 65 I want to be able to change from linear to exponential
+scaling via inlet 2;
+#X obj 203 18 inlet;
+#X text 285 195 y = x;
+#X obj 332 101 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 311 127 / 127;
+#X floatatom 110 172 5 0 0 0 - - -;
+#X floatatom 359 176 5 0 0 0 - - -;
+#X obj 79 119 pow 1;
+#X connect 0 0 9 0;
+#X connect 3 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 8 0;
+#X connect 6 0 9 1;
+#X connect 9 0 1 0;
+#X connect 9 0 7 0;
