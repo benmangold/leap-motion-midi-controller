@@ -19,18 +19,9 @@ TO USE
 
 	4) Within Pd, File>Open 'pd-leap-motion-midi-controller.pd'
 
+	5) Within patch - configure midi output
+
+	6) Within DAW/Hardware - Configure MIDI Instrument/ Control Surface
+
 	5) Begin Performance
 
-
-
-Midi Tracking Data - 
-
-Finger Count @ Hand Entrance
-
-X Location
-
-Y Location 
-
-Z Location
-
-Palm Tilt
