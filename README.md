@@ -1,6 +1,6 @@
 # LEAP Midi Controller
 
-Turning the LEAP Motion into a MIDI controller
+Turning the LEAP Motion into a MIDI controller using Puredata
 
 ## Functionality
 
@@ -20,11 +20,11 @@ Underlying 'leapmotion' Pd Object Developed by Chikashi Miyama: http://puredataj
 
 ## Configuring Pd MIDI Output and Running the Patch
 
-2) Open Pd Patch, File>Open 'pd-leap-motion-midi-controller.pd' 
+2) Open Pd Patch with PureData, File>Open 'pd-leap-motion-midi-controller.pd' 
 
 3) Configure Pd MIDI Output, Pd>Preferences>MIDI Settings..
 
-4) Configure DAW to recieve MIDI cc
+4) Configure DAW to recieve MIDI
 
 5) Begin MIDI Performance
 
