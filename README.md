@@ -2,26 +2,23 @@ LEAP Midi Controller
 
 by Ben Mangold
 
-This project turns the LEAP motion into a MIDI controller for music production and performance.  
+This project turns the LEAP motion into a MIDI controller using Pure Data.  
 
-Underlying 'leapmotion' Pd Object Developed by Chikashi Miyama: http://puredatajapan.info/?page_id=1514
+The LEAP's raw output is processed and scaled for reliability within Pure Data.
 
 MIDI output is sent from Pd application, allowing internal and external routing to DAW or hardare.
 
-TO USE
+Underlying 'leapmotion' Pd Object Developed by Chikashi Miyama: http://puredatajapan.info/?page_id=1514
 
-	1) Run the included Pd installation
+TO INSTALL AND USE
 
-	2) Within Pd, Pd>Preferences>MIDI Settings..
-	Configure Pd MIDI Output Devices
+1) Install PureData (Pd) and plug in Leap Motion
 
-	3) Plug in leapmotion
+2) Open Pd Patch, File>Open 'pd-leap-motion-midi-controller.pd' 
 
-	4) Within Pd, File>Open 'pd-leap-motion-midi-controller.pd'
+3) Configure Pd MIDI Output, Pd>Preferences>MIDI Settings..
 
-	5) Within patch - configure midi output
+4) Configure MIDI Instrument/ Control Surface
 
-	6) Within DAW/Hardware - Configure MIDI Instrument/ Control Surface
-
-	5) Begin Performance
+5) Begin Performance
 

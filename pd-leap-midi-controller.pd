@@ -287,8 +287,8 @@ z-leap-min -200 \; z-leap-max 150 \;;
 #X restore 23 124 pd finger-count;
 #X connect 1 0 0 0;
 #X restore 28 111 pd LEAP;
-#X obj 28 71 tgl 15 0 mouseover-on mouseover-on-set Mouseover 17 7
-0 12 -262144 -1 -1 1 1;
+#X obj 28 71 tgl 15 0 mouseover-on mouseover-on-set ON/OFF 17 7 0 12
+-262144 -1 -1 1 1;
 #N canvas 170 292 614 471 CC 0;
 #X obj 341 246 unpack 0 0 0 0 0 0;
 #X floatatom 341 293 10 0 0 0 frameID - -, f 10;
