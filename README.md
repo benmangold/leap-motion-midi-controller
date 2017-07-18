@@ -2,7 +2,9 @@
 
 Turning the LEAP Motion into a MIDI controller using Puredata
 
-Visible Here: https://www.instagram.com/p/1bMso-jXQF/?taken-by=bmngld
+PureData recieves incoming LEAP data streams, and parses select streams to MIDI, which is send to the destination of your choice.  Ex. Ableton Live, Pro Tools
+
+Visible Here, DJing with Ableton Live: https://www.instagram.com/p/1bMso-jXQF/?taken-by=bmngld
 
 ## Functionality
 
