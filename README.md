@@ -2,6 +2,8 @@
 
 Turning the LEAP Motion into a MIDI controller using Puredata
 
+Visible Here: https://www.instagram.com/p/1bMso-jXQF/?taken-by=bmngld
+
 ## Functionality
 
 The LEAP's raw output is processed and scaled for reliability within the Pure Data patch 'pd-leap-midi-controller.pd'.
