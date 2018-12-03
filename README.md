@@ -1,6 +1,10 @@
 # LEAP Midi Controller
 
-Turning the LEAP Motion into a MIDI controller using Puredata
+Turning the LEAP Motion into a MIDI controller using Puredata(Pd)
+
+Pd is an open source signal processing software, included in this repo for OSX
+
+Windows requires a Pd Installation, MIDI routing which I have not tested
 
 PureData recieves incoming LEAP data streams, and parses select streams to MIDI, which is send to the destination of your choice.  Ex. Ableton Live, Pro Tools
 
